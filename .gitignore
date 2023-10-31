@@ -8,16 +8,43 @@
 # testing
 /coverage
 
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for storing .pid files
+pm2/
+
+# Editor directories and files
+.idea/
+.vscode/
+.DS_Store
+.editorconfig
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Optional npm cache directory
+.npm
+
+# Build output
+build/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
